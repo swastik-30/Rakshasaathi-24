@@ -1,0 +1,32 @@
+{
+  "entities": [
+    {
+      "name": "patients",
+      "description": "Emergency and OPD patient triage records, interview responses, clinical summaries, and doctor review status",
+      "fields": [
+        { "name": "id", "type": "string", "description": "Unique identifier for patient record" },
+        { "name": "name", "type": "string", "description": "Patient's full name" },
+        { "name": "age", "type": "number", "description": "Patient age" },
+        { "name": "gender", "type": "string", "description": "Patient gender" },
+        { "name": "city", "type": "string", "description": "Patient city/district" },
+        { "name": "state", "type": "string", "description": "Patient state" },
+        { "name": "phone", "type": "string", "description": "Contact number" },
+        { "name": "emergencyContact", "type": "string", "description": "Emergency contact" },
+        { "name": "abhaId", "type": "string", "description": "ABHA ID / Ayushman Bharat" },
+        { "name": "language", "type": "string", "description": "Preferred language" },
+        { "name": "ayushMode", "type": "boolean", "description": "AYUSH integration flag" },
+        { "name": "chiefComplaint", "type": "string", "description": "Primary complaint" },
+        { "name": "duration", "type": "string", "description": "Symptom duration" },
+        { "name": "urgencyScore", "type": "number", "description": "Triage severity score 1-10" },
+        { "name": "department", "type": "string", "description": "Suggested triage department" },
+        { "name": "redFlags", "type": "array", "description": "Critical red flag indicators" },
+        { "name": "provisionalDiagnosis", "type": "string", "description": "Provisional diagnosis" },
+        { "name": "differentialDiagnosis", "type": "array", "description": "Differential diagnoses" },
+        { "name": "vitals", "type": "object", "description": "Reported vitals" },
+        { "name": "status", "type": "string", "description": "Queue status (waiting, in_consultation, completed, urgent)" },
+        { "name": "verifiedByDoctor", "type": "boolean", "description": "Doctor verification flag" },
+        { "name": "createdAt", "type": "string", "description": "Timestamp string or ISO date" }
+      ]
+    }
+  ]
+}

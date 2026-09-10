@@ -1,0 +1,6 @@
+{
+  "name": "RakshaSaathi - AI Patient Case-Taking & OPD Triage",
+  "description": "Patient case-taking software: Instant identification, adaptive multilingual voice interview, accident/injury image upload, and direct structured routing to OPD doctors.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
