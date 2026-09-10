@@ -1,20 +1,74 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# RakshaSaathi 🛡️
 
-# Run and deploy your AI Studio app
+### AI-Powered Multilingual Patient Case-Taking & Pre-Consultation Healthcare Platform
+**Organization: Ministry of Ayush | All India Institute of Ayurveda**
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/f2f4104d-0d84-4441-936d-8ce2242abe70
+## 🏥 About RakshaSaathi
 
-## Run Locally
+RakshaSaathi is a multilingual AI-assisted patient case-taking platform designed to help hospitals collect structured patient history before doctor consultation.
 
-**Prerequisites:**  Node.js
+It combines:
 
+- 🎤 Voice-based interaction
+- 👆 Touch-based guided questions
+- 🌐 Multilingual support
+- 📄 Medical document digitization
+- 🩹 Injury image sharing
+- 🧠 AI-assisted clinical summarization
+- 🚨 Clinical attention indicators
+- 👨‍⚕️ Doctor review dashboard
+- 🌿 AYUSH-specific case history
+- 🔗 FHIR/ABDM-ready architecture
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Core Idea
+
+> **"Capture the right history, in the patient's own language, before the consultation."**
+
+RakshaSaathi is designed to reduce repetitive history-taking and documentation workload while helping doctors receive a structured patient summary before consultation.
+
+---
+
+## 🎯 Problem
+
+Large government hospital OPDs often handle very high patient volumes with limited consultation time.
+
+This can result in:
+
+- Incomplete patient history
+- Repeated questioning
+- Missed medical information
+- Fragmented medical documents
+- Documentation burden
+- Language and literacy barriers
+- Difficulty handling detailed AYUSH history
+
+RakshaSaathi addresses the first-mile patient information collection problem.
+
+---
+
+## 💡 Proposed Solution
+
+RakshaSaathi provides a patient-friendly digital workflow:
+
+```text
+Patient Registration
+        ↓
+Language Selection
+        ↓
+Consent
+        ↓
+AI-Assisted Case Taking
+        ↓
+Voice + Touch Interaction
+        ↓
+Medical Document Upload
+        ↓
+AI-Assisted Information Extraction
+        ↓
+Structured Clinical Summary
+        ↓
+Doctor Review
+        ↓
+Consultation
